@@ -12,5 +12,5 @@ https://www.youtube.com/watch?v=UwMqXwDpL1k
    and wiring of "System" in cadence settings
 
 2) If you're using a Scarlett2i2 external USB sound card, make sure to set
-   channel 1 and 2 to "inst" (for isntrument) 
+   channel 1 and 2 to "inst" (for instrument) 
 
