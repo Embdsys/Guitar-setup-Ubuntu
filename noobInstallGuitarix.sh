@@ -12,7 +12,8 @@ sudo usermod -a -G audio $userName
 #To install cadence do this
 sudo apt-get install libjack-jackd2-dev qtbase5-dev qtbase5-dev-tools
 sudo apt-get install python3-pyqt5 python3-pyqt5.qtsvg pyqt5-dev-tools
-make ./Cadence
+make ./Cadence || echo "ERROR INSTALLING CADENCE"
+make install ./Cadence || echo "ERROR INSTALLING CADENCE"
 #######################################
 sudo apt-get install pulseaudio-module-jack  
 sudo apt-get install qtractor  
