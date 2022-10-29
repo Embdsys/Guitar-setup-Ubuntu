@@ -6,7 +6,14 @@ sudo dpkg -i kxstudio-repos_11.0.1_all.deb
 
 whoami=$(userName)
 sudo usermod -a -G audio $userName
-sudo apt-get install cadence  
+
+#sudo apt-get install cadence  # Cant intall this way anymore 2022
+##########################################
+#To install cadence do this
+sudo apt-get install libjack-jackd2-dev qtbase5-dev qtbase5-dev-tools
+sudo apt-get install python3-pyqt5 python3-pyqt5.qtsvg pyqt5-dev-tools
+make ./Cadence
+#######################################
 sudo apt-get install pulseaudio-module-jack  
 sudo apt-get install qtractor  
 sudo apt-get install guitarix  
