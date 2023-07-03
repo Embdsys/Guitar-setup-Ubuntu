@@ -12,9 +12,11 @@ https://www.youtube.com/watch?v=UwMqXwDpL1k
    and wiring of "System" in cadence settings
 
 2) If you're using a Scarlett2i2 external USB sound card, make sure to set
-   channel 1 and 2 to "inst" (for instrument) in the hardware card switch
+   channel 1 and 2 to "inst" (for instrument) in the hardware card switch.
+   
 
 **Virtual Wire**
+
 ![Screenshot from 2023-07-03 05-05-49](https://github.com/Embdsys/Guitar-setup-Ubuntu/assets/86981025/48e14196-54aa-40ac-8238-b32e2c9ef070)
 
 When you open GuitarX it will attempt to open Jack. Regardless of if it fails go to the Jack screen shown here
