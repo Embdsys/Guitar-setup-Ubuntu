@@ -20,6 +20,9 @@ sudo apt-get install qtractor
 sudo apt-get install guitarix  
 sudo apt-get install calf-plugins  
 
+#In case cadence fails to install from repo
+sudo apt-get install cadence  
+
 # Launch cadence 
 cadence
 #Ensure configure>Driver>Ensure ALSA is selected and set your audio card
