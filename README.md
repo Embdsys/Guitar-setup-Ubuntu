@@ -16,13 +16,17 @@ https://www.youtube.com/watch?v=UwMqXwDpL1k
 
 **Virtual Wire**
 ![Screenshot from 2023-07-03 05-05-49](https://github.com/Embdsys/Guitar-setup-Ubuntu/assets/86981025/48e14196-54aa-40ac-8238-b32e2c9ef070)
+
 When you open GuitarX it will attempt to open Jack. Regardless of if it fails go to the Jack screen shown here
    - Click GRAPH on the bottom left to show virtual wires (Necessary to route audion from guitar Input to Laptop speaker output)
+
 ![Screenshot from 2023-07-03 05-04-45](https://github.com/Embdsys/Guitar-setup-Ubuntu/assets/86981025/650c625f-002c-4866-927c-b9b0e435d5c7)
 
-   - Click SETUP on the right to select the input devices[hw:PCH], interfase [hw:USB], sample rate (44100), FrameRate [1024], Peiords/Buffer [2]
+   - Click SETUP on the right to select the input devices[hw:PCH], interfase [hw:USB], sample rate[44100], FrameRate[1024], Peiords/Buffer[2]
+
 ![Screenshot from 2023-07-03 05-10-01](https://github.com/Embdsys/Guitar-setup-Ubuntu/assets/86981025/358a62e2-d74d-41ca-9889-4b2051d9c04c)
 
-        - Note the ADVANCED tab
+   - Note the ADVANCED tab
+
 ![Screenshot from 2023-07-03 05-05-13](https://github.com/Embdsys/Guitar-setup-Ubuntu/assets/86981025/fa62bfbf-1988-4c62-bd5d-dbc660ea6a19)
 
